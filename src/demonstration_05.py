@@ -11,5 +11,6 @@ Examples:
 - sort_by_length([]) ➞ []
 """
 def sort_by_length(lst):
-    # Your code here
+    return lst.sort()
+print(sort_by_length(["a", "ccc", "dddd", "bb"]))
 
